@@ -1,0 +1,39 @@
+body {
+  background: #a2af9b;
+  font-family: "Alegreya SC", serif;
+}
+
+.heading {
+  color: #faf9ee;
+}
+
+.timer {
+  color: #fff;
+  text-align: center;
+  width: 20rem;
+  height: 20rem;
+  border: 5px solid #fff;
+  border-radius: 10rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.fa-play,
+.fa-rotate-right {
+  color: #dccfc0;
+  border: 2px solid transparent;
+  padding: 1rem;
+  border-radius: 2rem;
+}
+
+.fa-play:hover,
+.fa-rotate-right:hover {
+  color: #faf9ee;
+  border: 2px solid #faf9ee;
+  transition: 0.3s ease;
+}
+
+.row {
+  width: 100%;
+}
