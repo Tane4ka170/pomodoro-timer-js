@@ -35,13 +35,13 @@
     />
     <title>Pomodoro Timer</title>
   </head>
-  <body onload="template">
+  <body onload="template()">
     <div class="container">
       <!-- Heading -->
       <h1 class="text-center my-5 heading">Pomodoro App</h1>
 
       <!-- Main -->
-      <div class="container">
+      <div class="container timer">
         <div class="row">
           <div class="col-5">
             <h4 id="minutes"></h4>
@@ -55,11 +55,17 @@
         </div>
       </div>
 
+      <div>
+        <h3 id="done" class="text-center"></h3>
+      </div>
+
       <!-- Start and reset button -->
       <div
         class="container d-flex justify-content-center align-items-center my-5"
       >
-        <button class="btn"><i class="fa-solid fa-play fa-2x"></i></button>
+        <button class="btn" onclick="start()">
+          <i class="fa-solid fa-play fa-2x"></i>
+        </button>
         <a href="index.html"><i class="fa-solid fa-rotate-right fa-2x"></i></a>
       </div>
     </div>
