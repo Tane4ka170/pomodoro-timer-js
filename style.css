@@ -37,3 +37,12 @@ body {
 .row {
   width: 100%;
 }
+
+.show_message {
+  display: block;
+  padding: 1rem 0;
+  color: #a2af9b;
+  background: #faf9ee;
+  border-radius: 0.5rem;
+  transition: 0.5s ease;
+}
